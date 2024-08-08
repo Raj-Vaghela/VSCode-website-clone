@@ -3,10 +3,9 @@
 }
 
 body {
-    margin: 0%;
+    margin: 0;
     font-weight: 600;
     background-color: #0e0f0f;
-    height: 10000px;
 }
 
 h1 {
@@ -16,7 +15,6 @@ h1 {
     letter-spacing: -0.4px;
     font-weight: 600 !important;
     display: block;
-    font-size: 2em;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
@@ -47,7 +45,7 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 0px;
+    padding: 0;
 }
 
 .banner-para{   
@@ -80,7 +78,7 @@ h1 {
     background-color: #fff !important;
 }
 
-.bottomFirst {
+.bottom-first {
     display: flex;
     padding: 96px 90px 96px 90px;
     color: #9BA3B4;
@@ -88,11 +86,56 @@ h1 {
     justify-content: start;
 }
 
-.bottomsecond{
+.bottom-second{
     display: flex;
-    padding: 96px 90px 96px 90px;
+    padding: 64px 90px 64px 90px;
     color: #9BA3B4;
+    align-items: start;
     justify-content: start;
+}
+
+.bottom-third{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 12px;
+    font-weight: 500 !important;
+    width: 100%;
+    padding: 6px 0 6px 0;
+}
+
+.bt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 64px;
+}
+
+.bt h2{
+    color: #e9eaeb;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    font-size: 30px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bottom.light-theme .bt h2{
+    color: #242424 !important;
+}
+
+.bt p{
+    color : #9ba3b4 !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+    display: block;
+}
+
+.bottom.light-theme .bt p{
+    color: #333333 !important;
 }
 
 .bottom.light-theme .bottomFirst, .bottom.light-theme .bottomsecond {
@@ -112,23 +155,26 @@ h1 {
     width: 100%;
     gap: 16px;
     mask-image: linear-gradient(rgba(0,0,0), rgba(0,0,0,0.1));
-    mask-position: 50% 0%;
-
+    mask-position: 50% 0;
 }
 
 .bfText{
     width: 53%;
 }
 
+.bfText3{
+    width: 36.5% !important;
+    margin-top: 0 !important;
+}
+
 .bfText h2{
     color: #e9eaeb; 
     font-weight: 600;
     letter-spacing: -0.2px;
-    margin-top: 0;
     line-height: 150%;
     font-size: 30px;
     margin: 0 !important;
-    padding: 0% !important;
+    padding: 0 !important;
 }
 
 .bottom.light-theme .bfText h2{
@@ -143,11 +189,6 @@ h1 {
     font-weight: 500;
     line-height: 160%;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
 }
 
 .bottom.light-theme .bfText p{
@@ -158,6 +199,81 @@ h1 {
     color: #4CAAFD;
     font-weight: 500;
     line-height: 160%;
+}
+
+.bottom.light-theme .bfText a{
+    color: #005FB8;
+}
+
+.card{
+    font-weight: 500 !important;
+    text-decoration: none;
+    padding:24px !important;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 !important;
+}
+
+.bottom.light-theme .card{
+    background-color: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.card:hover{
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.bottom.light-theme .card:hover{
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    height: 24px !important;
+    width: 24px !important;
+    padding: 12px !important;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+.bottom.light-theme .card img{
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.card h3{
+    color: #e9eaeb !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+.bottom.light-theme .card h3{
+    color: #242424 !important;
+}
+
+.card p{
+    padding-top: 8px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 !important;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #9ba3b4;
+    display: block;
+}
+
+.bottom.light-theme .card p{
+    color: #333333 !important;
 }
 
 .col{
@@ -203,17 +319,18 @@ h1 {
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     font-weight: 500 !important ;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)) ;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05)) ;
 }
 
 .top.light-theme .contentTop{
     color: #333333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 .contentTopHero{
     background-color: transparent; 
     width: 36.5%;
-    margin-top: 10  px;
+    margin-top: 10px;
 }
 
 .downloadButton{
@@ -238,7 +355,7 @@ h1 {
 }
 
 .idkKyaNaamDu span{
-    padding: 8px 0px;
+    padding: 8px 0;
 }
 
 .idkagain{
@@ -248,6 +365,30 @@ h1 {
     font-size: 13px;
     color: #9ba3b4;
     font-weight: 500;
+}
+
+.bottom.light-theme .idkagain a{
+    color: #005FB8;
+}
+
+.idkagain2{
+    margin-bottom: 40px !important;
+}
+
+.bottom.light-theme .idkagain2 a{
+    color: #005FB8;
+}
+
+.idkagain3{
+    margin-bottom: 24px !important;
+}
+
+.bottom.light-theme .idkagain3 a{
+    color: #005FB8;
+}
+
+.bottom.light-theme .idkagain{
+    color: #333333;
 }
 
 .idkagain a{
@@ -275,7 +416,7 @@ h1 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.nav.light-theme .nav.scrolled {
+.nav.light-theme.scrolled {
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -405,8 +546,33 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.07);
 }
 
+.tile-details p{
+    padding-top: 8px;
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 0 !important;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #9ba3b4;
+    display: block;
+}
+
+.tile-box{
+    padding: 64px 90px 64px 90px;
+    color: #9BA3B4;
+}
+
+.bottom.light-theme .tile{
+    background-color: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
 .tile:hover{
     border-color: rgba(255, 255, 255, 0.2);
+}
+
+.bottom.light-theme .tile:hover{
+    border-color: rgba(0, 0, 0, 0.2);
 }
 
 .tile img{
@@ -422,31 +588,23 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    margin: 0%;
+    margin: 0;
 }
 
 .tile-details h3{
     color: #e9eaeb !important;
     font-size: 16px;
-    margin: 0;
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    margin-top: 2px;
+    margin: 2px 0 0;
 }
 
-.tile-details p{
-    font-size: 14px;
-    line-height: 140%;
-    margin-top: 0% !important;
-    letter-spacing: 0;
-    font-weight: 500;
-    color: #9ba3b4;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+.bottom.light-theme .tile-details h3{
+    color: #333333 !important;
+}
+
+.bottom.light-theme .tile-details p{
+    color: #242424 !important;
 }
 
 .themeBasedButton {
@@ -469,17 +627,13 @@ h1 {
     background-color: #f1f1f0;
 }
 
-.top.light-theme .themeBasedButton:hover{
-    background-color: #f1f1f0;
-}
-
 .themeBasedButton img {
     width: 20px;
     height: 20px;
 }
 
 .top{
-    margin-top: 0%;
+    margin-top: 0;
     background-color: #0e0e0e;
 }
 
