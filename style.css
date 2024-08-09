@@ -326,6 +326,12 @@ footer img {
     margin: 0;
     line-height: 100%;
     background-color: unset;
+    color: #9BA3B4;
+    font-weight: 100;
+}
+
+.bottom.light-theme .col-item code{
+    color: #333333 !important;
 }
 
 .col img{
