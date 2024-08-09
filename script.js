@@ -11,11 +11,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const swimlanescreenshot = document.getElementById('swimlanescreenshot');
     const swinlanecustomized = document.getElementById('swimlane-customized');
     const swimlaneanywhere = document.getElementById('swinlane-anywhere');
+    const footer = document.getElementById('footer');
+
     themeButton.addEventListener("click", () => {
-        if (topDiv.classList.contains("light-theme") && bottomDiv.classList.contains("light-theme") && nav.classList.contains("light-theme")) {
+        if (topDiv.classList.contains("light-theme") && bottomDiv.classList.contains("light-theme") && nav.classList.contains("light-theme") && footer.classList.contains("light-theme")) {
             topDiv.classList.remove("light-theme");
             bottomDiv.classList.remove("light-theme");
             nav.classList.remove("light-theme");
+            footer.classList.remove("light-theme");
             search.style.backgroundImage = "url('images/search-dark.svg')";
             themeIcon.src = "images/theme-light.svg";
             screenshot.src = "images/home-screenshot-mac-2x-v2.png";
@@ -26,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
             topDiv.classList.add("light-theme");
             bottomDiv.classList.add("light-theme");
             nav.classList.add("light-theme");
+            footer.classList.add("light-theme");
             search.style.backgroundImage = "url('images/search.svg')";
             themeIcon.src = "images/theme-dark.svg";
             screenshot.src = "images/home-screenshot-mac-2x-v2-light.png";
