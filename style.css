@@ -45,10 +45,10 @@ footer img {
 
 .banner{
     background-color: transparent;
-    color: #9ba3b4;     
-    font-size: 14px;    
-    position: relative;    
-    line-height: 150%;    
+    color: #9ba3b4;
+    font-size: 14px;
+    position: relative;
+    line-height: 150%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +69,7 @@ footer img {
     padding: 0;
 }
 
-.banner-para{   
+.banner-para{
     font-weight: 500;
 }
 
@@ -167,7 +167,7 @@ footer img {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    width: 100%; 
+    width: 100%;
 }
 
 .bfTable2{
@@ -189,7 +189,7 @@ footer img {
 }
 
 .bfText h2{
-    color: #e9eaeb; 
+    color: #e9eaeb;
     font-weight: 600;
     letter-spacing: -0.2px;
     line-height: 150%;
@@ -355,14 +355,14 @@ footer img {
 }
 
 .contentTopHero{
-    background-color: transparent; 
+    background-color: transparent;
     width: 36.5%;
     margin-top: 10px;
 }
 
 .downloadButton{
     font-size: 16px;
-    line-height: 100%;  
+    line-height: 100%;
     padding: 8px 16px;
     border-radius: 4px;
 }
@@ -394,7 +394,7 @@ footer.light-theme .footer-links a{
 }
 
 .idkKyaNaamDu{
-    background-color: #ffffff0a; 
+    background-color: #ffffff0a;
     padding: 8px 12px;
     width: max-content;
     font-size: 14px;
@@ -458,7 +458,7 @@ footer.light-theme .footer-links a{
     gap: 0;
     padding-left: 90px;
     padding-right: 90px;
-    z-index: 999;  
+    z-index: 999;
 }
 
 .nav.light-theme{
@@ -478,10 +478,10 @@ footer.light-theme .footer-links a{
 }
 
 .nav-brand {
-    font-size: 20px !important; 
+    font-size: 20px !important;
     color: #E9EAEB !important;
     background-image: url("images/vscode.svg");
-    background-size: 24px 24px; 
+    background-size: 24px 24px;
     background-repeat: no-repeat;
     background-position: left center;
     padding-left: 36px !important;
@@ -495,8 +495,8 @@ footer.light-theme .footer-links a{
 .nav-left{
     display: flex;
     height: 58px;
-    justify-content: start ; 
-    align-items: center; 
+    justify-content: start ;
+    align-items: center;
 }
 
 .nav-left a {
@@ -504,7 +504,7 @@ footer.light-theme .footer-links a{
     align-items: center;
     padding: 0 12px;
     text-decoration: none;
-    color: #9BA3B4; 
+    color: #9BA3B4;
     font-size: 16px;
 }
 
@@ -515,8 +515,8 @@ footer.light-theme .footer-links a{
 .nav-right {
     display: flex;
     height: 58px;
-    justify-content: end ; 
-    align-items: center; 
+    justify-content: end ;
+    align-items: center;
     margin-left: auto;
     gap: 0;
 }
@@ -537,8 +537,8 @@ footer.light-theme .footer-links a{
 }
 
 .screenshot{
-    width: 66.66666666666667%; 
-    display: flex; 
+    width: 66.66666666666667%;
+    display: flex;
     align-items: center;
 }
 
@@ -561,7 +561,7 @@ footer.light-theme .footer-links a{
 .searchBox:focus {
     outline: none;
     border: 1px solid #0078d4 !important;
-}   
+}
 
 .nav.light-theme .searchBox {
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -667,7 +667,7 @@ footer.light-theme .footer-links a{
     height: 32px;
     width: 32px;
     border-radius: 4px;
-    margin-right: 4px !important;   
+    margin-right: 4px !important;
     background: none;
     border: none;
 }
@@ -676,7 +676,7 @@ footer.light-theme .footer-links a{
     background-color: #333333;
 }
 
-.nav.light-theme .themeBasedButton:hover{
+.nav.light-theme .themeBasedButton:hover, .top.light-theme .themeBasedButton:hover{
     background-color: #f1f1f0;
 }
 
